@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="125dp"
+        android:background="@color/anaColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="BottomAppBar" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/aaasetting"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toStartOf="@+id/button12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/aaalocation"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toStartOf="@+id/button12"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/aaahome"
+        app:backgroundTint="#FDFDFD"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/aaafeedback"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toStartOf="@+id/button14"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/aaauser"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="281dp"
+        android:layout_height="369dp"
+        android:background="@color/anaColor"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="105dp"
+            android:layout_height="93dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/anaColorbbbb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/carValeLayout"
+            android:layout_width="105dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/anaColorbbbb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/lay4but5"
+                android:layout_width="73dp"
+                android:layout_height="76dp"
+                android:background="@drawable/aaacar"
+                app:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/technicLayout"
+            android:layout_width="105dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/anaColorbbbb"
+            app:layout_constraintBottom_toTopOf="@+id/carValeLayout"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/lay4but3"
+                android:layout_width="73dp"
+                android:layout_height="76dp"
+                android:background="@drawable/aaatechnical"
+                app:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/coookLayout"
+            android:layout_width="105dp"
+            android:layout_height="93dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/anaColorbbbb"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/lay4but4"
+                android:layout_width="73dp"
+                android:layout_height="76dp"
+                android:background="@drawable/chef"
+                app:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/receptionLayout"
+            android:layout_width="105dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/anaColorbbbb"
+            app:layout_constraintBottom_toTopOf="@+id/coookLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/lay4but2"
+                android:layout_width="73dp"
+                android:layout_height="76dp"
+                android:background="@drawable/aaareception"
+                app:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/houseKeepingLayout"
+            android:layout_width="105dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/anaColorbbbb"
+            app:layout_constraintBottom_toTopOf="@+id/technicLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/lay4but1"
+                android:layout_width="73dp"
+                android:layout_height="76dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/aaahousekeeping"
+                app:backgroundTint="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="-1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/uptasar__1_" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MyHotel</string>
+
+    <string name="temiz">Temizlik</string>
+    <string name="temizlik">Genel Temizlik</string>
+    <string name="hızlıtemizlik">Hızlı Temizlik</string>
+    <string name="çarşaf">Temiz Çarşaf</string>
+
+    <string name="recep">Resepsiyon</string>
+    <string name="telefon">Beni Ara</string>
+    <string name="çanta">Valiz Taşıma</string>
+    <string name="güven">Güvenlik</string>
+
+    <string name="problem">Teknik Servis</string>
+    <string name="elektrik">Elektrik Arıza</string>
+    <string name="su">Su Arıza</string>
+    <string name="klima">Isıtma/Soğutma</string>
+    <string name="eşya">Kullanım Alanı Arıza</string>
+
+    <string name="ye">Yemek</string>
+    <string name="sabah">Kahvaltı</string>
+    <string name="yemek">Ana Yemek</string>
+    <string name="araöğün">Ara Sıcaklar</string>
+    <string name="iç">İçecekler</string>
+
+    <string name="araba">Araç Yönetimi</string>
+    <string name="çağır">Vale</string>
+    <string name="kirala">Araç Kirala</string>
+    <string name="yıka">Araç Yıkama</string>
+    <string name="motor">Araç Arıza</string>
+
+    <string name="loc">LOCASYON</string>
+    <string name="set">AYARLAR</string>
+    <string name="mes">GERİ BİLDİRİM</string>
+    <string name="user">KULLANICI</string>
+
+
+
+
+
+
+
+
+
+
+</resources>
